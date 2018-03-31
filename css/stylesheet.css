@@ -1,0 +1,277 @@
+body{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    float: inherit;
+    font-weight: 700;
+}
+
+.top{
+    background-color: #D9D9DB;
+    height: 100px;
+}
+
+.btn{
+    background-color: #D44500;
+    text-align: center;
+    align-items: center;
+    color: white;
+    width: 470px;
+}
+
+.btn:hover{
+    color: lightgray;
+}
+.coursetable{
+    background-color: #D9D9DB;
+    margin: auto;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+
+tr.spaceUnder>td {
+  padding-bottom: 1em;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 50px 0;
+}
+
+td {
+  padding: 10px 0;
+}
+
+.left carousel-control
+{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+a:visited{
+    text-decoration: none;
+    //color: white;
+}
+
+.cclink{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.cclink:hover{
+    color: #D44500 !important;
+}
+
+.table-striped{
+    margin: auto;
+}
+
+h2{
+    color: #D44500;
+}
+h3{
+    text-align: left;
+    color: #D44500;
+    float: inherit;
+    margin: 0 0 0 375px;
+}
+
+th{
+    text-align:center;
+    font-weight: 800;
+    font-size: 18px;
+}
+#retable{
+    text-align: left;
+    /*all: left; */
+  /*  border-spacing:25px !important;*/
+    
+}
+
+i{
+    float: left;
+    margin: 0 0 0 375px;
+}
+.fa-thumbs-o-up{
+    color: #0F7254;
+}
+
+.fa-thumbs-o-down{
+    color: #B51533;
+}
+
+p{
+    align-self: center;
+    text-align: left;
+    margin: 0 0 0 375px;
+    width: 500px;
+}
+
+
+
+p.hard{
+    border-style: solid;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: #FCFAFA;
+    border-color: #FCFAFA;
+}
+
+p.ok{
+    border-style: solid;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-color: #FCFAFA;
+    background-color: #FCFAFA;
+    color: #f7cc20;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+p.easy{
+    border-style: solid;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-color: #FCFAFA;
+    background-color: #FCFAFA;
+    color: yellowgreen;
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+
+.red{
+    width: 25px;
+    height: 25px;
+    background-color: #FCFAFA;
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.yellow{
+    width: 25px;
+    height: 25px;
+    background-color: #FCFAFA;
+    color: #f7cc20;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;  
+}
+.green{
+    width: 20px;
+    height: 15px;width: 50px;
+    height: 15px;
+    background-color: #FCFAFA;
+    color: yellowgreen;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7 !important;
+    float: left;
+    margin-left: 375px;
+}
+
+.submit{
+    color: #fff;
+    background-color: #337ab7 !important;
+    float: left;
+    margin-left: 375px;
+    border-color: #2e6da4;
+    font: black;
+}
+
+
+
+/* Popup container - can be anything you want */
+#popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+#popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+#popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+#popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
